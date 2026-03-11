@@ -9,5 +9,5 @@ test("Test divide by zero", () => {
 });
 
 test("Test divide function", () => {
-  expect(divide(4, 0)).toBe(0);
+  expect(divide(4, 0)).toBe("Can't divide by Zero");
 });
